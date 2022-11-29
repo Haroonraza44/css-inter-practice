@@ -1,0 +1,30 @@
+/*Element*/
+body{ background-color: aquamarine;}
+a{ color: black; text-decoration: none;}
+h4,h3 { color: darkblue}
+/*class*/
+.ulone{border: 1px solid brown}
+
+/*id*/
+#lione{ color: red}
+/* Star
+*{ border: 1px solid black}*/
+
+
+/*Descendant Selector*/
+
+  ul li a { color: darkviolet} 
+
+/*Adjacent Selector*/
+
+h4 + ul{ color: bisque}
+
+
+/*Attribute Selector*/
+
+a[href="http://www.google.com"] {
+text-decoration: line-through;
+}
+
+/*nth of type*/ 
+li:nth-of-type(even){ text-transform: uppercase;}
